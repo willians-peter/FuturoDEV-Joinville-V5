@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(136, 168, 189);
+}
+h1 { 
+    color: rgb(63, 22, 212);
+    text-align: center;
+}
+p {
+    color: rgb(63, 22, 212);
+    text-align: center;}
+    
+img {
+    border: 2px solid black;
+    border-radius: 10px; 
+    max-width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+.container {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center; /
+    height: 200px; 
+        
+}
+.container > * {
+  border: 2px solid black; /* Borda preta sólida */
+  border-radius: 5px; /* Arredondamento das bordas */
+  padding: 30px; /* Espaçamento interno */
+}
+/* [M01S02] Exercício 3 - Layout com Flexbox */
